@@ -1,0 +1,139 @@
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten] MongoDB starting : pid=3496 port=27017 dbpath=/home/choi/mongodb-data 64-bit host=choi-PC
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten] db version v3.2.11
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten] git version: 009580ad490190ba33d1c6253ebd8d91808923e4
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten] modules: none
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten] build environment:
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten]     distmod: ubuntu1404
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-11-27T00:38:21.327+0900 I CONTROL  [initandlisten] options: { storage: { dbPath: "/home/choi/mongodb-data" } }
+2018-11-27T00:38:21.358+0900 I -        [initandlisten] Detected data files in /home/choi/mongodb-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-11-27T00:38:21.358+0900 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2018-11-27T00:38:21.683+0900 I CONTROL  [initandlisten] 
+2018-11-27T00:38:21.683+0900 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-11-27T00:38:21.683+0900 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-11-27T00:38:21.683+0900 I CONTROL  [initandlisten] 
+2018-11-27T00:38:21.703+0900 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/choi/mongodb-data/diagnostic.data'
+2018-11-27T00:38:21.703+0900 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-11-27T00:38:21.705+0900 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-11-27T01:12:14.905+0900 I CONTROL  [signalProcessingThread] got signal 1 (Hangup), will terminate after current cmd ends
+2018-11-27T01:12:14.905+0900 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-11-27T01:12:14.906+0900 I CONTROL  [signalProcessingThread] now exiting
+2018-11-27T01:12:14.906+0900 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-11-27T01:12:14.906+0900 I NETWORK  [signalProcessingThread] closing listening socket: 16
+2018-11-27T01:12:14.906+0900 I NETWORK  [signalProcessingThread] closing listening socket: 17
+2018-11-27T01:12:14.906+0900 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-11-27T01:12:14.906+0900 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-11-27T01:12:14.906+0900 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-11-27T01:12:14.907+0900 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-11-27T01:12:14.928+0900 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-11-27T01:12:14.928+0900 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten] MongoDB starting : pid=4805 port=27017 dbpath=/home/choi/mongodb-data 64-bit host=choi-PC
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten] db version v3.2.11
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten] git version: 009580ad490190ba33d1c6253ebd8d91808923e4
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten] modules: none
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten] build environment:
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten]     distmod: ubuntu1404
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-11-27T23:52:28.808+0900 I CONTROL  [initandlisten] options: { storage: { dbPath: "/home/choi/mongodb-data" } }
+2018-11-27T23:52:28.840+0900 I -        [initandlisten] Detected data files in /home/choi/mongodb-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-11-27T23:52:28.840+0900 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2018-11-27T23:52:29.173+0900 I CONTROL  [initandlisten] 
+2018-11-27T23:52:29.173+0900 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-11-27T23:52:29.173+0900 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-11-27T23:52:29.173+0900 I CONTROL  [initandlisten] 
+2018-11-27T23:52:29.191+0900 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/choi/mongodb-data/diagnostic.data'
+2018-11-27T23:52:29.191+0900 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-11-27T23:52:29.192+0900 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-11-27T23:55:24.914+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:45254 #1 (1 connection now open)
+2018-11-27T23:55:24.961+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:45256 #2 (2 connections now open)
+2018-11-27T23:55:28.614+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:45258 #3 (3 connections now open)
+2018-11-28T00:16:50.552+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:45758 #4 (4 connections now open)
+2018-11-28T00:16:55.059+0900 I NETWORK  [conn4] end connection 127.0.0.1:45758 (3 connections now open)
+2018-11-28T00:16:55.519+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:45762 #5 (4 connections now open)
+2018-11-28T00:20:50.562+0900 I NETWORK  [conn5] end connection 127.0.0.1:45762 (3 connections now open)
+2018-11-28T00:20:51.119+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:45944 #6 (4 connections now open)
+2018-11-28T00:21:40.663+0900 I NETWORK  [conn6] end connection 127.0.0.1:45944 (3 connections now open)
+2018-11-28T00:21:41.335+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:46032 #7 (4 connections now open)
+2018-11-28T00:29:36.671+0900 I NETWORK  [conn7] end connection 127.0.0.1:46032 (3 connections now open)
+2018-11-28T00:29:37.115+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:46258 #8 (4 connections now open)
+2018-11-28T00:32:42.038+0900 I NETWORK  [conn8] end connection 127.0.0.1:46258 (3 connections now open)
+2018-11-28T00:32:42.571+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:46332 #9 (4 connections now open)
+2018-11-28T01:09:53.364+0900 I CONTROL  [signalProcessingThread] got signal 1 (Hangup), will terminate after current cmd ends
+2018-11-28T01:09:53.365+0900 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-11-28T01:09:53.366+0900 I CONTROL  [signalProcessingThread] now exiting
+2018-11-28T01:09:53.366+0900 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-11-28T01:09:53.366+0900 I NETWORK  [signalProcessingThread] closing listening socket: 16
+2018-11-28T01:09:53.366+0900 I NETWORK  [signalProcessingThread] closing listening socket: 17
+2018-11-28T01:09:53.366+0900 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-11-28T01:09:53.366+0900 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-11-28T01:09:53.366+0900 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-11-28T01:09:53.366+0900 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-11-28T01:09:53.367+0900 I NETWORK  [conn3] end connection 127.0.0.1:45258 (3 connections now open)
+2018-11-28T01:09:53.367+0900 I NETWORK  [conn9] end connection 127.0.0.1:46332 (3 connections now open)
+2018-11-28T01:09:53.378+0900 I NETWORK  [conn1] end connection 127.0.0.1:45254 (1 connection now open)
+2018-11-28T01:09:53.378+0900 I NETWORK  [conn2] end connection 127.0.0.1:45256 (0 connections now open)
+2018-11-28T01:09:53.407+0900 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-11-28T01:09:53.407+0900 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-12-14T00:07:07.068+0900 I CONTROL  [initandlisten] MongoDB starting : pid=4022 port=27017 dbpath=/home/choi/mongodb-data 64-bit host=choi-PC
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten] db version v3.2.11
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten] git version: 009580ad490190ba33d1c6253ebd8d91808923e4
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten] modules: none
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten] build environment:
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten]     distmod: ubuntu1404
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-12-14T00:07:07.069+0900 I CONTROL  [initandlisten] options: { storage: { dbPath: "/home/choi/mongodb-data" } }
+2018-12-14T00:07:07.103+0900 I -        [initandlisten] Detected data files in /home/choi/mongodb-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-12-14T00:07:07.103+0900 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2018-12-14T00:07:07.442+0900 I CONTROL  [initandlisten] 
+2018-12-14T00:07:07.442+0900 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-12-14T00:07:07.442+0900 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-12-14T00:07:07.442+0900 I CONTROL  [initandlisten] 
+2018-12-14T00:07:07.459+0900 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/choi/mongodb-data/diagnostic.data'
+2018-12-14T00:07:07.460+0900 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-12-14T00:07:07.461+0900 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-12-14T00:07:23.517+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:43738 #1 (1 connection now open)
+2018-12-14T01:26:44.247+0900 I CONTROL  [signalProcessingThread] got signal 1 (Hangup), will terminate after current cmd ends
+2018-12-14T01:26:44.247+0900 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-12-14T01:26:44.249+0900 I CONTROL  [signalProcessingThread] now exiting
+2018-12-14T01:26:44.249+0900 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-12-14T01:26:44.249+0900 I NETWORK  [signalProcessingThread] closing listening socket: 16
+2018-12-14T01:26:44.249+0900 I NETWORK  [signalProcessingThread] closing listening socket: 17
+2018-12-14T01:26:44.249+0900 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-12-14T01:26:44.250+0900 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-12-14T01:26:44.250+0900 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2018-12-14T01:26:44.250+0900 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-12-14T01:26:44.258+0900 I NETWORK  [conn1] end connection 127.0.0.1:43738 (0 connections now open)
+2018-12-14T01:26:44.319+0900 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-12-14T01:26:44.319+0900 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2018-12-18T23:59:27.066+0900 I CONTROL  [initandlisten] MongoDB starting : pid=26718 port=27017 dbpath=/home/choi/mongodb-data 64-bit host=choi-PC
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten] db version v3.2.11
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten] git version: 009580ad490190ba33d1c6253ebd8d91808923e4
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten] allocator: tcmalloc
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten] modules: none
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten] build environment:
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten]     distmod: ubuntu1404
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten]     distarch: x86_64
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-12-18T23:59:27.068+0900 I CONTROL  [initandlisten] options: { storage: { dbPath: "/home/choi/mongodb-data" } }
+2018-12-18T23:59:27.125+0900 I -        [initandlisten] Detected data files in /home/choi/mongodb-data created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-12-18T23:59:27.125+0900 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2018-12-18T23:59:27.673+0900 I CONTROL  [initandlisten] 
+2018-12-18T23:59:27.673+0900 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2018-12-18T23:59:27.673+0900 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2018-12-18T23:59:27.673+0900 I CONTROL  [initandlisten] 
+2018-12-18T23:59:27.692+0900 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/home/choi/mongodb-data/diagnostic.data'
+2018-12-18T23:59:27.692+0900 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2018-12-18T23:59:27.701+0900 I NETWORK  [initandlisten] waiting for connections on port 27017
+2018-12-18T23:59:35.060+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54308 #1 (1 connection now open)
+2018-12-19T01:33:11.349+0900 I NETWORK  [conn1] end connection 127.0.0.1:54308 (0 connections now open)
+2018-12-19T01:33:46.875+0900 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58874 #2 (1 connection now open)
